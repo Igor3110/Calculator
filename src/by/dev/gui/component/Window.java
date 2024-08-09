@@ -39,6 +39,7 @@ public class Window extends JFrame {
 
         window.add(CENTER, panelButtons);
 
+        setTitle(APP_TITLE);
         setContentPane(window);
         pack();
         setResizable(false);
